@@ -1,0 +1,45 @@
+/* Small Screen */
+  .container {
+    width: 100%;
+    padding: 70px 0 120px;
+    background: #F8F9FA;
+  }
+
+  .title {
+    color: #06D6A0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .subtitle {
+    color: #118AB2;
+    margin: 0;
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .data__global {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+/* Medium Screen */
+@media (min-width: 768px) {
+
+}
+
+/* Large Screen */
+@media (min-width: 992px) {
+  .data__global {
+    margin: 0 1rem;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+  }
+}
